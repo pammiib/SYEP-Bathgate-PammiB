@@ -33,3 +33,17 @@ body{
     padding: 20px; 
     border-radius: 100px;
 }
+
+@media (max-width: 768px){
+    .hero h1{font: size 40px;}
+    body{background-color: rgb(147, 197, 192);}
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero img{
+    border-radius: 50%;
+}
